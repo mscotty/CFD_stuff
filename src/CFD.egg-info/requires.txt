@@ -1,0 +1,11 @@
+numpy
+ambiance
+
+[dev]
+pytest
+mypy
+flake8
+isort
+pylint
+autopep8
+tox

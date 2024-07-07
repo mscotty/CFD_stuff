@@ -1,0 +1,47 @@
+{
+    "body": {
+        "Global_Sizing": {
+            "Scaling_Factor": 1.0,
+            "Global_Size": 1.0,
+            "Minimum_Size": 1e-05,
+            "Size_Increment": 1.2
+        },
+        "Topo_Sizing": {
+            "FrontNose": 0.02,
+            "Nose": 0.035,
+            "Body": 0.05,
+            "BackEnd": 0.15
+        },
+        "BL_Sizing": {
+            "Face B.L.": {
+                "Growth_Rate": 1.2,
+                "1st_Layer_Thickness": 3e-05,
+                "Number_of_Layers": 31
+            },
+            "Edge B.L.": {
+                "Growth_Rate": 1.3,
+                "1st_Layer_Thickness": 5e-05,
+                "Number_of_Layers": 30
+            }
+        }
+    },
+    "wing": {
+        "Global_Sizing": {
+            "Scaling_Factor": 1.0,
+            "Global_Size": 1.0,
+            "Minimum_Size": 1e-05,
+            "Size_Increment": 1.2
+        },
+        "Topo_Sizing": {
+            "WingEdge": 0.01,
+            "WingTopBottom": 0.01
+        },
+        "BL_Sizing": {
+            "Face B.L.": {
+                "Growth_Rate": 1.2,
+                "1st_Layer_Thickness": 3e-05,
+                "Number_of_Layers": 30
+            }
+        }
+    }
+}
